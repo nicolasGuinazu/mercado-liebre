@@ -1,0 +1,127 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.logo{
+width: 30%;
+height: 30%;
+}
+:root {
+  --section-bg-color: skyblue;
+}
+.titular{
+  font-size: 12px;
+}
+header{
+  background-color: #fff159;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+main{
+  background-color:#cccc;
+
+  
+}
+.compra-cuotas{
+margin-top:5%;
+margin-left: 20%;
+}
+nav ul{
+  list-style: none;
+  text-decoration: none;
+}
+nav ul a {
+  text-decoration: none;
+}
+.hamburger i{
+  color:#ffff;
+  border:1px solid #1259c3;
+  background-color: #1259c3;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 45%;
+}
+
+footer{
+  background-color: #eeee;
+  font-size: 12px;
+  text-align: center;
+}
+footer p {
+  margin:10px;
+}
+footer i{
+  font-size: 2em;
+  color: #1259c3;
+  margin: 10px;
+}
+
+.banner img{
+  width: 100%;
+}
+.banner{
+  background-color:#cccc;
+}
+.ultimas-vistas article{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.ultimas-vistas article section{
+  width: 50%;
+  height: 100%;
+  background-color: var(--section-bg-color);
+  margin-bottom: 10%;
+  border-radius: 5px;
+
+}
+
+.ultimas-vistas article p{
+  margin-left: 35%;
+}
+
+.ultimas-vistas article section img{
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+}
+
+.ofertas article{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.ofertas article section{
+  width: 50%;
+  height: 100%;
+  background-color: var(--section-bg-color);
+  margin-bottom: 10%;
+  border-radius: 5px;
+  
+}
+
+.ofertas article p{
+  margin-left: 35%;
+}
+
+.ofertas article section img{
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+}
