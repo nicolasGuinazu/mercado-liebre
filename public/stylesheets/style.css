@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
+main{
+  width: 90%;
+  margin: auto;
+}
 .logo{
 width: 30%;
 height: 30%;
@@ -26,7 +30,6 @@ header{
 
 main{
   background-color:#cccc;
-
   
 }
 .compra-cuotas{
@@ -83,14 +86,12 @@ footer i{
   width: 50%;
   height: 100%;
   background-color: var(--section-bg-color);
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   border-radius: 5px;
 
 }
 
-.ultimas-vistas article p{
-  margin-left: 35%;
-}
+
 
 .ultimas-vistas article section img{
   width: 60%;
@@ -111,17 +112,38 @@ footer i{
   width: 50%;
   height: 100%;
   background-color: var(--section-bg-color);
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   border-radius: 5px;
   
 }
 
-.ofertas article p{
-  margin-left: 35%;
-}
+
 
 .ofertas article section img{
   width: 60%;
   height: 60%;
   margin-left: 20%;
 }
+
+article section div{
+  border-top: 1px solid #ebebeb;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.descuento{
+  color: #39b54a;
+  margin-bottom: 15px;
+}
+
+.camion{
+  margin-left: 1px;
+  border:1px solid #39b54a;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #39b54a;
+  font-weight: bold;
+}
+
