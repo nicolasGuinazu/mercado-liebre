@@ -212,9 +212,7 @@ article section div{
   .titular{
     margin: 0;
   }
-  .ultimas-vistas article section{
-    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-  } 
+   
   .descripcion{
     display: inline;
     font-size: 16px;
@@ -232,11 +230,24 @@ article section div{
     width: 20%;
     background-color: white;
   }
-
+  /*----------ofertas----------------------*/
   .descripciones{
     border-top: 1px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap
   }
+  .descripciones p.precio{
+    width: 60%;
+  }
+  .descripciones p.descuento{
+    width: 30%;
+  }
+ 
   /*----------ofertas----------------------*/
+  .ofertas article{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+  }
+
   .ofertas{
     display: flex;
     
@@ -250,10 +261,13 @@ article section div{
   }
   .ofertas img{
     width: 80%;
-    margin: auto;
+    margin-left: 10%;
   }
 
    /*----------ultimas visitas----------------------*/
+   .ultimas-vistas article{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+  }
   .ultimas-vistas{
     display: flex;
 
@@ -267,6 +281,33 @@ article section div{
   }
   .ultimas-vistas img{
     width: 80%;
-    margin: auto;
+    margin-left: 10%;
+  }
+
+  /*----------navbar---------------------*/
+  .navbar ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-container{
+    display: flex;
+  }
+
+  div.barra{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 11%;
+    height: 20%;
+    display: block;
+  }
+  
+
+  .header-container .logo img{
+    height: 100px;
+  }
+  
+  div.compra-cuotas{
+    margin:auto;
   }
  }
