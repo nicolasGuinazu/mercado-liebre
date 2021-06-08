@@ -7,6 +7,38 @@
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
+.formulario form{
+  background-color: silver;
+  margin-left: 10%;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.formulario form label{
+  width: 100%;
+}
+.formulario form input{
+  width: 100%;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+ 
+}
+.formulario form .enviar{
+  margin-top: 20%;
+background-color: rgb(0, 81, 255);
+color: white;
+font-weight: bold;
+font-size: 1rem;
+width: 60%;
+height: 100%;
+border-radius: 5px;
+margin-bottom: 10px;
+padding:1px;
+outline: none;
+border:none;
+}
 .barra{
   border: 1px solid black;
   border-radius: 1px;
