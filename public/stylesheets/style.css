@@ -7,23 +7,42 @@
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
+div.formulario{
+  margin: 0;
+}
 .formulario form{
   background-color: silver;
-  margin-left: 10%;
+  margin-left: 20%;
+
+  height: 60%;
   width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 10px;
+}
+.formulario form div.perfil{
+
+  width: 100%;
+
 }
 .formulario form label{
   width: 100%;
 }
 .formulario form input{
   width: 100%;
+  height: 20px;
   outline: none;
   border:none;
   border-radius: 5px;
+  margin-bottom: 15px;
  
+}
+.formulario form input:required{
+  background-color: rgba(255, 112, 112, 0.993);
+}
+::placeholder{
+  color: white;
 }
 .formulario form .enviar{
   margin-top: 20%;
@@ -35,17 +54,25 @@ width: 60%;
 height: 100%;
 border-radius: 5px;
 margin-bottom: 10px;
-padding:1px;
+padding:10px;
 outline: none;
 border:none;
 }
 .barra{
   border: 1px solid black;
   border-radius: 1px;
-  width: 60%;
+  width: 50%;
+  height: 50%;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  border: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.header-container{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .barra input{
@@ -65,8 +92,9 @@ main{
   margin: auto;
 }
 .logo{
-width: 30%;
+width: 50%;
 height: 30%;
+margin: auto
 }
 :root {
   --section-bg-color: #ffff;
@@ -95,9 +123,11 @@ h2.titular{
   margin-top: 10px;
 }
 .compra-cuotas{
+  display: flex;
 margin-top:5%;
 margin-left: 10%;
 margin-bottom: 5%;
+width: 100%;
 }
 nav ul{
   list-style: none;
@@ -131,6 +161,7 @@ footer i{
 
 .banner img{
   width: 100%;
+ 
 }
 .banner{
   background-color:#cccc;
@@ -495,20 +526,37 @@ article section div{
 
   .header-container{
     display: flex;
+    flex-wrap: nowrap;
   }
 
   div.barra{
- 
-    margin-top: 3%;
+    align-self: center;
+    margin-top: 10%;
     margin-left: 10%;
-    width: 20%;
-    height: 20%;
-    display: block;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    margin: 0;
+    border: white;
+    border-radius: 10px;
+    padding: 10px;
   }
-  
+  div.barra i{
+    height: 10%;
+    font-size: large;
+  }
+  div.barra input{
+     width: 100%;
+      height: 100%;
+      border: white;
+
+  }
 
   .header-container .logo img{
+    margin-top: 10%;
+    margin-bottom: 10%;
     height: 80px;
+    align-self: center;
   }
   
   div.compra-cuotas{
@@ -519,8 +567,14 @@ article section div{
     flex-grow: 3;
     align-self: center;
     margin-right: 8%;
+    padding-left: 20px;
   }
-
+  div.compra-cuotas i{
+    padding-left: 30px;
+  }
+  div.compra-cuotas p{
+    padding-left: 30px;
+  }
   .descripciones{
     padding:0;
   }
@@ -554,5 +608,49 @@ article section div{
     padding-top: 10px;
     margin-left: 10px;
     padding-bottom: 3px;
+  }
+  div.formulario{
+    margin: 0;
+  }
+  .formulario form{
+    background-color: silver;
+    margin-left: 29%;
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  .formulario form div.perfil{
+  
+    width: 100%;
+  
+  }
+  .formulario form label{
+    width: 100%;
+  }
+  .formulario form input{
+    width: 60%;
+    height: 30px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+  }
+  .formulario form .enviar{
+    margin-top: 20%;
+  background-color: rgb(0, 81, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding:10px;
+  outline: none;
+  border:none;
   }
  }
