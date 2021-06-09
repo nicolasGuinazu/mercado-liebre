@@ -19,16 +19,22 @@
       <form method="POST">
         
         <label for="nombre-apellido">Nombre y Apellido</label>
-        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingresa tu nombre y apellido">
+        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingresa tu nombre y apellido" required>
         <label for="nacimiento">Fecha de Nacimiento</label>
         <input type="date" id="nacimiento" name="nacimiento">
-        <label for="nombre-apellido">Nombre y Apellido</label>
-        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingresa tu domicilio">
-        <p>Perfil de usuario</p>
-        <label for="comprar">Comprar</label>
+        <div class="perfil">
+          <p>Perfil de usuario</p>
+        </div>
+        
+        <div>
+        <label for="comprar">Comprador</label>
         <input type="radio" id="comprar" name="comprar">
-        <label for="vender">Vender</label>
+      </div>
+      
+      <div>
+        <label for="vender">Vendedor</label>
         <input type="radio" id="vender" name="vender">
+      </div>
         <label for="intereses">Seleciona tus intereses:</label>
         <select id="intereses">
             <option value="electro">Electro</option>
@@ -40,30 +46,13 @@
         <label for="foto">Agrega una foto para tu usuario</label>
         <input type="file" id="foto" name="foto">
         <label for="pass">Ingresa tu contraseña</label><br>
-        <input type="password" id="pass" name="pass">
+        <input type="password" id="pass" name="pass" placeholder="Ingresa tu contraseña" required>
         <label for="pass">Confirma tu contraseña</label><br>
-        <input type="password" id="pass" name="pass">
+        <input type="password" id="pass" name="pass" placeholder="Repite la contraseña" required>
         <button class="enviar" type="submit">Enviar</button>
     </form>
 </div>
-<!-- 
-      Nombre y apellido
-      ■ Nombre de usuari@
-      ■ Fecha de nacimiento
-      ■ Domicilio
-      ■ Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
-      ■ Categorías de interés (puede elegir más de una)
-      ● Electro
-      ● Moda
-      ● Hogar
-      ● Juguetería
-      ● Vida sana
-      ■ Foto de usuario
-      ■ Contraseña
-      ■ Confirmar contraseña
-      ■ Botón de enviar que nos lleve a la página principal
-      ■ Botón de borrar todos los datos del formulario -->
-      <!-------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------->
     </main>
 </body>
 <!------------------------------------------------------FOOTER-------------------------------------------------->
