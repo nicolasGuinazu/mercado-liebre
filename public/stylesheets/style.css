@@ -186,7 +186,7 @@ footer i{
 .descripciones{
   border-top:1px solid #ebebeb;
   background-color: white;
-  padding-top: 10px;
+  padding-top: 2px;
   margin-left: 10px;
   padding-bottom: 3px;
 }
@@ -274,6 +274,9 @@ article section div{
   text-align: center;
   color: #39b54a;
   font-weight: bold;
+  position: relative;
+  bottom: 10px;
+  left: 270px;
 }
 /*-----------------------Tablet-------------------------------------------------*/
 @media (min-width:425px)and (max-width:769px){
@@ -415,6 +418,9 @@ article section div{
     text-align: center;
     color: #39b54a;
     font-weight: bold;
+    position: relative;
+    bottom: 17px;
+    left: 2px;
   }
   .camion i{
     font-size: large;
@@ -597,10 +603,13 @@ article section div{
     text-align: center;
     color: #39b54a;
     font-weight: bold;
+    position: relative;
+    bottom: 17px;
+    left: 27px
   }
   .camion i{
-    font-size: large;
-    
+    font-size: 1.5rem;
+  
   }
   .descripciones{
     border-top:1px solid #ebebeb;
