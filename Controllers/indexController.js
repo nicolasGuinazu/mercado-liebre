@@ -4,6 +4,9 @@ const indexController={
     },
     register(req,res){
         res.render("register")
+    },
+    register(req,res){
+        res.render("login")
     }
 }
 module.exports=indexController;
