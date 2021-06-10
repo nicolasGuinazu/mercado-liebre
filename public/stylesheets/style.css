@@ -474,8 +474,15 @@ article section div{
  
   /*----------ofertas----------------------*/
   .ofertas article{
+    cursor: pointer;
+    box-shadow:none;
+    transition:box-shadow 1ms;
+    transition-timing-function: ease-out;
+  }
+  .ofertas article:hover{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
   }
+
 
   .ofertas{
     display: flex;
@@ -495,8 +502,15 @@ article section div{
 
    /*----------ultimas visitas----------------------*/
    .ultimas-vistas article{
+    cursor: pointer;
+    box-shadow:none;
+    transition:box-shadow 1ms;
+    transition-timing-function: ease-out;
+  }
+  .ultimas-vistas article:hover{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
   }
+
   .ultimas-vistas{
     display: flex;
 
@@ -662,4 +676,14 @@ article section div{
   outline: none;
   border:none;
   }
+  p.descripcion{
+    color: #ffff;
+    cursor: pointer;
+    transition: color 900ms;
+    transition-timing-function: ease-out;
+  }
+  p.descripcion:hover{
+    color:#000;
+  }
+
  }
