@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css"> <!--esta es la forma para acceder al css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Mercado liebre</title>
+  </head>
+<%- include('partials/header')%>
+<body>
+    <div class="banner">
+      <img src="/images/img-home-banner.jpg">
+    </div>
+    <main>
+      <!------------------------------------------------------Register-------------------------------------------------->
+        <div class="formulario">
+      <form method="POST">
+        
+        <label for="nombre-apellido">Usuario</label>
+        <input type="text" name="Usuario" id="Usuario" placeholder="Ingresa tu nombre de usuario" required>
+        <input type="password" id="pass" name="pass" placeholder="Ingresa tu contraseña" required>
+    </form>
+    <form action="/">
+      <button class="enviar" type="submit">Enviar</button>
+    </form>
+    
+</div>
+<!-------------------------------------------------------------------------------------------------------------------->
+    </main>
+</body>
+<!------------------------------------------------------FOOTER-------------------------------------------------->
+  <%- include('partials/footer') %>.
+</html>
