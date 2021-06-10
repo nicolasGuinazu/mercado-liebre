@@ -691,5 +691,23 @@ article section div{
   p.descripcion:hover{
     color:#000;
   }
-
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #eeee;
+    font-size: 12px;
+    text-align: center;
+  }
+  footer div{
+    width: 30%;
+  }
+  footer p {
+    margin:15px;
+  }
+  footer i{
+    font-size: 2em;
+    color: #1259c3;
+    margin: 10px;
+  }
  }
