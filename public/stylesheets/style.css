@@ -39,7 +39,7 @@ div.formulario{
  
 }
 .formulario form input:required{
-  background-color: rgba(255, 112, 112, 0.993);
+  background-color: rgba(231, 23, 23, 0.993);
 }
 ::placeholder{
   color: white;
@@ -663,8 +663,10 @@ article section div{
    
   }
   .formulario form .enviar{
+    cursor: pointer;
     margin-top: 20%;
   background-color: rgb(0, 81, 255);
+  transition: background-color 1s;
   color: white;
   font-weight: bold;
   font-size: 1rem;
@@ -676,6 +678,10 @@ article section div{
   outline: none;
   border:none;
   }
+  .formulario form .enviar:hover{
+    background-color: #0022AA;
+  }
+  
   p.descripcion{
     color: #ffff;
     cursor: pointer;
