@@ -5,7 +5,7 @@ const indexController={
     register(req,res){
         res.render("register")
     },
-    register(req,res){
+    login(req,res){
         res.render("login")
     }
 }
